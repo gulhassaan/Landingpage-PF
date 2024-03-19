@@ -448,7 +448,7 @@ font-weight: 900;
 
 #card-6 {
     position: relative;
-    background-image: url('/Images/visit-of-master.png');
+    background-image: url('./Images/visit-of-master.png');
     background-size: cover;
     background-position: center;
 }
@@ -512,7 +512,7 @@ font-weight: 900;
 
 #card-7 {
     position: relative;
-    background-image: url('/Images/diagnosis.png');
+    background-image: url('./Images/diagnosis.png');
     background-size: cover;
     background-position: center;
 }
@@ -573,7 +573,7 @@ font-weight: 900;
 
 #card-8 {
     position: relative;
-    background-image: url('/Images/diagnosis-med.png');
+    background-image: url('./Images/diagnosis-med.png');
     background-size: cover;
     background-position: center;
 }
@@ -993,7 +993,7 @@ font-weight: 900;
     position: relative;
     width: 100%;
     height: 100%;
-   background-image: url("/Images/location.png");
+   background-image: url("./Images/location.png");
   object-fit: fill;
   background-repeat: no-repeat;
 }
