@@ -6,7 +6,6 @@
     font-family: "inter", sans-serif ;
 }
 nav{
-  
     background-color: white;
     display: flex;
     justify-content: space-evenly;
@@ -14,6 +13,7 @@ nav{
     font-size: 14px;
     font-weight:400;
     height: 132px;
+    margin-left: 60px;
 }
 .logo-div img{
     width: 30px;
@@ -93,8 +93,9 @@ nav{
 .group-1 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:flex-start;
     justify-content: center;
+    margin-left: 10rem;
 }
 
 .group-1 h1{
@@ -116,19 +117,18 @@ nav{
     border-radius: 40px;
     padding: 20px 60px;
     font-weight: 900;
-    margin: 40px;
+    margin: 40px 0px;
 }
 .group-1 .para-2 span{
     color: red;
 }
 
 
-
 .group-1-bottom{
-    margin: 40px;
+    margin: 40px 0px;
     display: flex;
     gap: 20px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     color: #515151;
 }
@@ -318,7 +318,7 @@ align-items: flex-end;
     overflow: hidden;
     height: 50vh;
     background-color: #3CA7DB;
-    width:70%;
+    width:75%;
     margin: 0 auto;
 }
 .left-content{
@@ -395,7 +395,7 @@ font-weight: 900;
     height:fit-content;
     background-color: #3CA7DB;
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 5rem ;
 }
 .serices-heading{
     padding-top: 5rem;
@@ -411,7 +411,8 @@ font-weight: 900;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  margin: 10px 6rem;
+  margin: 10px 9.5rem;
+  padding: 50px 0px;
 }
 
 .card {
@@ -591,7 +592,7 @@ font-weight: 900;
 }
 #card-8 img {
     
-    width: 60%;
+    width: 50%;
     position: absolute;
     z-index: 2;
     margin-top: 50px;
@@ -666,8 +667,8 @@ font-size: 7px;
 
 /*scheme container section*/
 .scheme-container-section{
-   
-    margin: 0px 10rem;
+    margin: 0px 6.5rem;
+    line-height: 25px;
 }
 .scheme-container-section .scheme-para{
     text-align: center;
@@ -753,7 +754,7 @@ font-size: 7px;
     margin: 0 auto;
 }
 .discount-left-content{
-    margin: 50px 50px 50px 200px;
+    margin: 50px 50px 50px 180px;
     justify-content: space-between;
     color: white;
 }
@@ -790,7 +791,7 @@ font-weight: 900;
 
 .hero-img-1-bg {
     width: 40%;
-    transform: translate(-35%, 0%);
+    transform: translate(-47%, 0%);
 }
 .pro-wash-img-2{
     z-index: 1; /* Ensure this image is on top */
@@ -841,7 +842,7 @@ font-weight: 900;
 .review-container {
     display:flex;
     justify-content: center;
-    gap:10px;
+    gap:40px;
     margin: 70px 0px;
   }
   .review {
@@ -928,15 +929,12 @@ font-weight: 900;
 
   .faq{
     background-color:#009ae1;
-    padding: 50px 0px;
+    padding: 70px 50px 50px 90px;
     color: white;
     align-items: center;
     text-align: center;
   }
   
-
-
-
   
 .faq-container p{
     color: #fff;
