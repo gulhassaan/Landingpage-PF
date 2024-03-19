@@ -182,6 +182,17 @@ nav{
         grid-template-columns: 1fr; 
         overflow: visible;
     }
+    .group-1{
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+        margin: 20px 0px;
+        height: fit-content;
+    }
+    .group-1-bottom{
+        display: flex;
+        font-size: 10px;
+    }
 
 }
 
@@ -279,7 +290,7 @@ align-items: flex-end;
 /* Media Queries For Household Appliances*/
 @media screen and (max-width: 900px) {
     .Household-Appliances{
-        margin-top: 25rem;
+        margin-top: 35rem;
          }
          .household-head{
             font-size: 20px;
@@ -290,7 +301,7 @@ align-items: flex-end;
             flex-direction: column;
          }
          .household img{
-            width: 80%;
+            width: 30%;
             padding: 10px;
          }
          .household-bottom{
@@ -627,6 +638,9 @@ font-weight: 900;
     padding: 0px;
     margin: 0px;
 }
+.scheme-container{
+    display: flex;
+}
 #card-6 img {
     width: 40%;
 }
@@ -808,23 +822,13 @@ font-weight: 900;
 
 /* Media Queries For get discount*/
 @media screen and (max-width: 900px) {
-    .discount-left-content{
-        margin: 0px;
-    }
-    .discount-right{
-        display: none;
-    }
-    .get-discount{
+    .scheme-container{
         display: flex;
-        flex-direction: column;
-        height: 40vh;
-        padding: 20px;
-        width: 90%;
+        flex-direction: row;
     }
-    .discount-left-content{
-        align-items: center;
-        text-align: center;
-    }
+ .box{
+    width: calc(60%);
+ }
 }
 
 
